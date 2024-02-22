@@ -29,5 +29,6 @@ with open('/home/asik/gc.fasta') as f:
                 gc_total += 1
         gc_content = gc_total / float(total) * 100
         spisok = f"{seq.id}: {gc_content:}"
+        
 for gc_content in spisok:
     print(max(gc_content), end = "")
