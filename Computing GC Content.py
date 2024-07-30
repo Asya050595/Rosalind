@@ -20,7 +20,7 @@ def GC_counter(seq): #doesn't work for some reason =(
     gc_content = gc_total / float(total) * 100
     return gc_content
 
-with open('/home/asik/gc.fasta') as f:
+with open('/home/asik/gc.txt') as f:
     for seq in SeqIO.parse(f, "fasta"):
         gc_total = 0
         total = len(seq)
