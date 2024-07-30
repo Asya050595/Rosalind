@@ -14,5 +14,5 @@ def fibonacci(n, k):
             b = c
         return c
 
-print(fibonacci(5, 3))
+print(fibonacci(int(input()), int(input())))
 
