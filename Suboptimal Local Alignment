@@ -1,5 +1,5 @@
 #!!! NOT MINE !!!#
-
+!code source -- https://github.com/erexhepa/Rosalind/blob/master/Armory_014_SUBO.py
 
 def hamming_dist(string1, string2):
     ''' Calculate Hamming Distance between strings
